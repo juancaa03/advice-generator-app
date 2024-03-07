@@ -40,7 +40,6 @@ function App() {
           ) : (
             <img className='divider' src={MobileIconDivider} alt='Icon Divider' />
           )}
-          <br />
           <button className='round-button' onClick={getRandomAdvice}><img className='button-icon' src={ButtonIcon} alt="Get Advice" /></button>
         </div>
       </div>
